@@ -1,3 +1,4 @@
+pip install --upgrade pip
 fastai==2.7.13
 pathlib
 st_pages
