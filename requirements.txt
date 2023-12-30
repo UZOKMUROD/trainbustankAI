@@ -1,4 +1,4 @@
-pip install --upgrade pip
+pip3==23.3.2
 fastai==2.7.13
 pathlib
 st_pages
