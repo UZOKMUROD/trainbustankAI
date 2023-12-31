@@ -15,20 +15,20 @@ if plt == "Linux" : pathlib.WindowsPath=pathlib.PosixPath
 
 # Either this or add_indentation() MUST be called on each page in your
 # app to add indendation in the sidebar
-add_page_title()
+#add_page_title()
 
 # Specify what pages should be shown in the sidebar, and what their titles and icons
 # should be
 
-show_pages(
-    [
-        Page("main.py", "Home", "🏠"),
-        Page("page2.py", "Dastur kodi", ),
-        Page("rezume.py ","Rezume", icon="💪"),
+#show_pages(
+#    [
+#        Page("main.py", "Home", "🏠"),
+#        Page("page2.py", "Dastur kodi", ),
+#        Page("rezume.py ","Rezume", icon="💪"),
         
         
-    ]
-)
+#    ]
+#)
 
 st.title("Assalomu alaykum siz bu yerda Bus, Tank, Train rasmlarini ajrata oladigan AI sinab ko'rishingiz mumkin va rasm yuklashda pastdagi 3 turgagi rasmlarni yuklang")
 
