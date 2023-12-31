@@ -1,3 +1,5 @@
 fastai==2.7.13
-pathlib
+pathlib==1.0.1
 st_pages
+torch==2.1.0+cu121
+streamlit==1.29.0
