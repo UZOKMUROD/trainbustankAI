@@ -52,7 +52,7 @@ if img:
 
     imgs=PILImage.create(img)
 
-    model=load_learner("Transport.pkl")
+    model=load_learner("https://github.com/UZOKMUROD/trainbustankAI/blob/main/Transport.pkl")
 
     pred, pred_id,prods=model.predict(imgs)
 
